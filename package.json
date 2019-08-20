@@ -1,0 +1,23 @@
+{
+  "name": "rsk-eth-logs-workarround",
+  "version": "1.0.0",
+  "description": "Node js cronjob that executes eth_getLogs periodically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosmartinez7/rsk-eth-logs-workarround.git"
+  },
+  "dependencies": {
+    "cron": "^1.7.1",
+    "request": "^2.88.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosmartinez7/rsk-eth-logs-workarround/issues"
+  },
+  "homepage": "https://github.com/marcosmartinez7/rsk-eth-logs-workarround#readme"
+}
