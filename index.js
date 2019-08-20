@@ -2,7 +2,7 @@
 const CronJob = require('cron').CronJob;
 const request = require('request');
 
-new CronJob('0 * * * * * *', ()=>{
+new CronJob('*/10 * * * *', ()=>{
     getLogs()
 }, null, true, 'America/Montevideo');
 
